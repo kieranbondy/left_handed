@@ -1,0 +1,22 @@
+.home-container{
+    padding: 20px 35px;
+}
+.title-text{
+    color:white;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.logo-container{
+    margin: 25px 0px;
+}
+.text{
+    color:white;
+    font-family: Roboto;
+}
+.info-container{
+    margin-right: 10%;
+    display: flex;
+    justify-content: end;
+}
