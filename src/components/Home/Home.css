@@ -1,22 +1,50 @@
 .home-container{
-    padding: 20px 35px;
+    padding: 0px 35px 35px 35px;
+    
 }
 .title-text{
     color:white;
-    font-family: Roboto;
+    font-family: Inter;
     font-weight: 600;
     font-size: 30px;
     text-transform: uppercase;
 }
 .logo-container{
-    margin: 25px 0px;
+    height: 60vh;
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px auto;
+}
+
+.logo-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+    max-height: 100%; /* Ensure the image doesn't exceed the container's height */
+    display: block; /* Ensure the image behaves as a block element */
+    margin-bottom: 16px;
 }
 .text{
     color:white;
-    font-family: Roboto;
+    font-family: Inter;
 }
 .info-container{
-    margin-right: 10%;
     display: flex;
     justify-content: end;
+    width: 100%;
 }
+
+@media only screen and (max-width: 1000px) {
+    .logo-container{
+        width: 80vw;
+    }
+    .title-text{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .home-container{
+        padding: 35px;
+    }
+  }

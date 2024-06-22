@@ -1,0 +1,33 @@
+.press-container{
+    margin: 0px 36px;
+    padding: 24px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+.article-header{
+    font-size: 24px;
+}
+
+.article-container{
+    padding: 24px 0;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.author{
+    font-weight: bold;
+    font-size: 18px;
+}
+.read-full{
+    text-decoration: underline;
+}
+
+.article-container2{
+    padding: 24px 0;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

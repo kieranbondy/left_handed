@@ -6,7 +6,7 @@ import soph from '../../resources/Soph.png'
 export default function About() {
   return (
     <div>
-      <Header></Header>
+      <Header current="about"></Header>
       <div className='flex items-center p-6'>
         <iframe
           width="50%"
