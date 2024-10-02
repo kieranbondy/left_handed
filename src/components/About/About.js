@@ -3,6 +3,8 @@ import Header from '../Header/Header'
 import stick from '../../resources/Riz-Ahmed.jpeg'
 import allie from '../../resources/allie.png'
 import soph from '../../resources/Soph.png'
+
+//test
 export default function About() {
   return (
     <div>
